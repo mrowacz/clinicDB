@@ -5,7 +5,6 @@ use clinic;
 drop table if exists patients;
 drop table if exists doctors;
 drop table if exists visits;
-drop table if exists examinations;
 
 create table  patients (
     id int not null,
@@ -36,25 +35,12 @@ create table visits (
     patient int,
     disease varchar(100),
     medicaments text,
-    examinations text,
     
     primary key(id),
+    foreign key(patient)
+        references patients(id),
     foreign key(doctor)
         references doctors(id)
 );
-
-create table examinations (
-    id int not null,
-    extype text,
-    description text,
-    doc_opinion text,
-    patient int,
-    doctor int,
-    done boolean,
-    commented boolean,
-    
-    primary key(id)
-);
-
 
 
