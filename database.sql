@@ -32,12 +32,12 @@ create table doctors (
         references specializations(id)
 );
 
-create table visits (
+create table visit (
     id int not null auto_increment,
     dt date,
     doctor int,
     patient int,
-    disease varchar(100),
+    problem varchar(100),
     medicaments text,
     
     primary key(id),

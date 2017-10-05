@@ -1,0 +1,34 @@
+ache
+allergy
+attack
+backache
+bellyache
+bite
+bleeding
+bruise
+bump
+burn
+chills
+cold
+concussion
+cough
+cut
+diarrhoea
+dislocation
+faint
+food poisoning
+fracture
+hangover
+headache
+indigestion
+infection
+injury
+nausea
+pain
+rash
+runny nose
+sore throat
+sprain
+stroke
+sunstroke
+wound
